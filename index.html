@@ -7,20 +7,49 @@
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <link href="css/style.css" rel="stylesheet">
     <title>Home</title>
 </head>
 <body>
+    <!-- header : title and menu-->
     <header class="container border">
-        <h1>Restaurante</h1>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">Restaurante</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Carta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+              </div>
+          </nav>
     </header>
+
+    <!-- main : content-->
     <main class="container border">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, repellat eveniet dolorem magnam praesentium consequuntur delectus asperiores labore commodi quidem aspernatur esse dignissimos. Obcaecati tempore optio, temporibus rerum doloribus iusto?
     </main>
+    
+    <!-- footer : social media and copyright-->
     <footer class="container border">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestias libero veniam itaque facere consectetur atque saepe delectus. Omnis sint odit explicabo impedit saepe hic itaque voluptatum laudantium alias sapiente.
+        <div class="col-md-4 d-flex align-items-center">
+            <span class="text-muted">© 2021 Company, Inc</span>
+        </div>
     </footer>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- Bootstrap Bundle with Popper -->
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
