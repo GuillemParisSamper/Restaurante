@@ -1,0 +1,60 @@
+.wite{
+    color: #ffffff;
+}
+.black{
+    color: #000000;
+}
+.orange{
+    color: #df4627;
+}
+.blue{
+    color: #153d41;
+}
+.green{
+    color: #38a671;
+}
+
+.fa {
+    padding: 4px;
+    font-size: 20px;
+    width: 20px;
+    text-decoration: none;
+    margin: 4px 8px;
+}
+
+.bg-burger{
+
+}
+.bg-carrot{
+
+}
+.bg-cheff{
+
+}
+.bg-cutlery{
+
+}
+.bg-fruit{
+
+}
+.bg-ice-cream{
+
+}
+.bg-meat{
+
+}
+.bg-pans{
+
+}
+.bg-restaurant{
+
+}
+.bg-salad{
+
+}
+*{
+    color:#153d41;
+}
+a{
+    color:#153d41; 
+}
