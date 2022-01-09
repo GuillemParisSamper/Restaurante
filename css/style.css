@@ -1,17 +1,30 @@
-.wite{
-    color: #ffffff;
+*{
+    color:#38a671 !important;
+    text-align: justify;
+    text-justify: inter-word;
+}
+a{
+    color:#38a671; 
+}
+.active{
+    text-decoration: underline;
+}
+
+
+.white{
+    color: #ffffff !important;
 }
 .black{
-    color: #000000;
+    color: #000000 !important;
 }
-.orange{
-    color: #df4627;
+.text-danger, .orange{
+    color: #df4627 !important;
 }
-.blue{
-    color: #153d41;
+.text-primary, .blue{
+    color: #153d41 !important;
 }
-.green{
-    color: #38a671;
+.text-success, .green{
+    color: #38a671 !important;
 }
 
 .fa {
@@ -22,39 +35,34 @@
     margin: 4px 8px;
 }
 
-.bg-burger{
 
+.bg-burger{
+    background-image: url("img/burger.png");
 }
 .bg-carrot{
-
+    background-image: url("img/carrot.png");
 }
 .bg-cheff{
-
+    background-image: url("img/chef.png");
 }
 .bg-cutlery{
-
+    background-image: url("img/cutlery.png");
 }
 .bg-fruit{
-
+    background-image: url("img/fruit.png");
 }
 .bg-ice-cream{
-
+    background-image: url("ice-cream.png");
 }
 .bg-meat{
-
+    background-image: url("img/meat.png");
 }
 .bg-pans{
-
+    background-image: url("img/pans.png");
 }
 .bg-restaurant{
-
+    background-image: url("img/restaurant.png");
 }
 .bg-salad{
-
-}
-*{
-    color:#153d41;
-}
-a{
-    color:#153d41; 
+    background-image: url("img/salad.png");
 }
