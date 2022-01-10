@@ -6,11 +6,23 @@
 a{
     color:#38a671; 
 }
+a:hover{
+    color: #153d41 !important;
+    /*text-shadow: 1px 1px 1px #000000;*/
+    font-weight: bold;
+}
 .active{
     text-decoration: underline;
 }
+h1{
+    text-decoration: underline;
+}
+h1, h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px 0px #153d41,
+                 4px 4px 0px #153d41;
 
-
+}
 .white{
     color: #ffffff !important;
 }
